@@ -9,7 +9,8 @@ The game is under a space setting. Without too much gameful elements design but 
 
 ![Walk on a sphere world](/images/Walk.PNG)
 
-![Walk on a sphere world!!](/images/GifTry.gif)
+![Walk on a sphere world!!](/images/Walk.gif )
+
 this is a gif about the walking on a planet
 ***
 - Sphere world AI Patrol
