@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5430078220017273824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5430078220016850880}
+  - component: {fileID: 5430078220013983712}
+  - component: {fileID: 5430078220015080736}
+  m_Layer: 0
+  m_Name: Bridge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5430078220016850880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078220017273824}
+  m_LocalRotation: {x: -0.4404206, y: 0.30538133, z: -0.07537153, w: 0.84088707}
+  m_LocalPosition: {x: -14.729445, y: 53.820198, z: -74.723625}
+  m_LocalScale: {x: 0.9999999, y: 0.99999994, z: 2.8000002}
+  m_Children:
+  - {fileID: 5430078220175628709}
+  - {fileID: 5430078220582460692}
+  - {fileID: 5430078221375835056}
+  - {fileID: 5430078220058488187}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5430078220013983712
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078220017273824}
+  m_Mesh: {fileID: 4300190, guid: 62af2d92020b82746b3e2191b71360ea, type: 3}
+--- !u!23 &5430078220015080736
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078220017273824}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d4928f2e450e0134fa63762dda187e12, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &5430078220058488188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5430078220058488187}
+  - component: {fileID: 5430078220058488186}
+  m_Layer: 0
+  m_Name: Bridge_B2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5430078220058488187
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078220058488188}
+  m_LocalRotation: {x: 0.036054533, y: 0.035492588, z: 0.700633, w: -0.71172595}
+  m_LocalPosition: {x: -0.18, y: 0.59, z: -0.25}
+  m_LocalScale: {x: 1.0120823, y: 1.0005119, z: 1.0125926}
+  m_Children: []
+  m_Father: {fileID: 5430078220016850880}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -5.8, y: 360, z: -89.1}
+--- !u!65 &5430078220058488186
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078220058488188}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7303509, y: 4.505118, z: 6.396984}
+  m_Center: {x: 3.4200015, y: 0.06900682, z: 2.7542377}
+--- !u!1 &5430078220175628710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5430078220175628709}
+  - component: {fileID: 5430078220175628708}
+  m_Layer: 0
+  m_Name: Bridge_L
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5430078220175628709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078220175628710}
+  m_LocalRotation: {x: -0.701532, y: 0.71254545, z: 0.00046034114, w: 0.011473644}
+  m_LocalPosition: {x: -2.55, y: 1.25, z: -0.13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5430078220016850880}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -0.96, y: 179.1, z: -89.1}
+--- !u!65 &5430078220175628708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078220175628710}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.5066967, y: 1, z: 12.837825}
+  m_Center: {x: 2.060563, y: -0.000972072, z: -0.001399688}
+--- !u!1 &5430078220582460693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5430078220582460692}
+  - component: {fileID: 5430078220582460691}
+  m_Layer: 0
+  m_Name: Bridge_R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5430078220582460692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078220582460693}
+  m_LocalRotation: {x: -0.701532, y: 0.71254545, z: 0.00046038628, w: 0.011473626}
+  m_LocalPosition: {x: 2.6, y: 1.2500004, z: -0.1300007}
+  m_LocalScale: {x: 1.0003347, y: 1.0002769, z: 1.0006099}
+  m_Children: []
+  m_Father: {fileID: 5430078220016850880}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.96, y: 179.1, z: -89.1}
+--- !u!65 &5430078220582460691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078220582460693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.153719, y: 1, z: 12.837826}
+  m_Center: {x: 2.2371085, y: -0.0010010911, z: -0.0033265566}
+--- !u!1 &5430078221375835057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5430078221375835056}
+  - component: {fileID: 5430078221375835055}
+  m_Layer: 0
+  m_Name: Bridge_B1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5430078221375835056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078221375835057}
+  m_LocalRotation: {x: -0.7008946, y: 0.7114252, z: 0.030550724, w: 0.04108131}
+  m_LocalPosition: {x: -0.18, y: 0.62, z: -0.1300007}
+  m_LocalScale: {x: 1.0003347, y: 1.0002769, z: 1.0006099}
+  m_Children: []
+  m_Father: {fileID: 5430078220016850880}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -5.8, y: 179.1, z: -89.1}
+--- !u!65 &5430078221375835055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430078221375835057}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.016545, y: 4.505118, z: 5.7028522}
+  m_Center: {x: 3.285678, y: 0.068811595, z: 2.7048569}

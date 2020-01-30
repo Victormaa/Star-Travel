@@ -1,0 +1,75 @@
+Spaceflight Controls Setup Guide
+
+Open “Tutorial Images.zip” in this folder (Documentation) to see the images that accompany this tutorial.
+
+Step 1: Input Setup
+
+•	In Unity, go to Edit>Project Settings>Input
+
+•	Add a new axis, and call it “Thrust” (Case sensitive)
+
+•	Set type to “Key or Mouse Button”, and set the positive and negative buttons to whatever you wish. (These will be the buttons to speed up or slow down the ship)
+
+•	Add another new axis, and call it “Roll” (Case sensitive)
+
+•	Set type to “Key or Mouse Button”, and set the positive and negative buttons to whatever you wish. These buttons will enable the ship to rotate along its forward facing axis.
+
+
+Step 2: Ship Setup
+
+•	Create a new, empty game object. Name it “Ship Container”. This will be the container that contains all the separate objects that compose the ship.
+
+•	Add a RigidBody to the Ship Container, and uncheck “Use Gravity”.
+
+•	Set the angular drag on the RigidBody to a higher integer, 4 works well. Values that are too low will cause the ship to be extremely sensitive to turning, while values too high will cause the ship to be unable to turn.
+
+•	Create another new game object. Name it “Core Ship”. This object should contain the mesh and collision mesh for the ship you want to control. Make this game object a child of the Ship Container. Make sure the position is 0,0,0.
+
+•	Create a third new, empty game object. Name it “Targeter”. It should be a child of the Ship Container object, but not of the Core Ship object. This will be the object that the camera focuses on. Generally, it should be a moderate distance from the front of the ship—refer to the example scenes for an optimal setup.
+
+•	On the container object, add the “Player Flight Control” script.
+
+•	The first field (“Ship Game Object”) should contain the Core Ship game object. Drag and drop “Core Ship” from the hierarchy into the field on Player Flight Control.
+
+•	If you want to use the shooting functionality built-in, you can create a new, empty game object and place it where you want a weapon to fire from. This should be parented to the Core Ship object. Drag and drop this into the “Weapon Hardpoint” slot.
+
+•	Also related to the shooting functionality, make sure you select a prefab for the “Projectile Game Object”. This will be the game object that will be shot out of the weapon hardpoint.
+
+•	Set the Ship Container’s layer to “Ignore Raycast” (Including all of the Ship Container’s children) if you plan on using the shooting system provided. This is so the ship won’t shoot itself.
+
+
+Step 3: Camera Setup
+
+•	On the scene’s main camera (Needs to have the “MainCamera” tag), add these two scripts: “Custom Pointer” and “Camera Flight Follow”.
+
+•	On “Camera Flight Follow” script, drag and drop the Ship Container object into this field. It will automatically pull the Flight Controller from it and load it into the camera.
+
+•	Again, on the “Camera Flight Follow” script, drag and drop the targeter game object we created earlier into the “Look Target” field on the script.
+
+•	Adjust the follow distance—this is how many units behind the targeter the camera will be.
+
+
+Step 4: Pointer Setup
+
+•	Click the grey box to select the pointer texture you wish to use.
+
+•	Select input method. Uses mouse by default. Uncheck to see other options. (Currently only Gamepad)
+
+
+
+At this point, the ship should be set up, and ready to fly. Test the scene! If it’s not working, check the console for errors to see how to resolve the problem. 
+
+
+
+Step 5: Parameter tweaking
+
+•	Now is the best time to go back through the scripts and adjust all the options, values, and parameters to make the ship behave exactly how you want it to.
+
+•	Each field in the inspector has a tooltip to give you more information about what it does.
+
+•	If you are having trouble setting the ship up properly, please refer to the example scenes, or the example prefabs in the Resources folder.
+
+If you have any problems, there are example prefabs in “Resources”, and example scenes in “Scenes”.
+If you have a more in-depth issue or question, feel free to email me at: brettg94@live.com
+
+

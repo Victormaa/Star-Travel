@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d79e256aca510741b23fdf7d33b51de, type: 3}
+  m_Name: Bullet_3
+  m_EditorClassIdentifier: 
+  _bullet: {fileID: 1637393488171710577, guid: 8fdc7cb5411104b429dc90cf24966c9a, type: 3}
+  ShootForce:
+    UseConstant: 1
+    ConstantValue: 18
+    Variable: {fileID: 0}
+  Modify_Verticle:
+    UseConstant: 1
+    ConstantValue: 32
+    Variable: {fileID: 0}
+  Modify_Horizontal:
+    UseConstant: 1
+    ConstantValue: 2.46
+    Variable: {fileID: 0}
+  ShootDir: {x: 21.00495, y: -13.170181, z: 23.902874}
+  ShootDelay:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  bulletid: 3
+  maxlifeTime: 4
+  isWeapen3: 1
+  projectileParticle: {fileID: 183996, guid: dde93ea5512f0e242a654a566c8605e5, type: 3}

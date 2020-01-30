@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 40f7ed1fcd488a84a85f430ce225f541
+labels:
+- planets
+- planet
+- spaceadventure
+- spacejourney
+- spacedust
+- astronaut
+- stars
+timeCreated: 1433192388
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Planet_Rings_LOD_0
+    100004: Planet_Rings_LOD_1
+    100006: Ring_1
+    100008: Ring_2
+    100010: Ring_3
+    400000: //RootNode
+    400002: Planet_Rings_LOD_0
+    400004: Planet_Rings_LOD_1
+    400006: Ring_1
+    400008: Ring_2
+    400010: Ring_3
+    2300000: //RootNode
+    2300002: Planet_Rings_LOD_0
+    2300004: Planet_Rings_LOD_1
+    2300006: Ring_1
+    2300008: Ring_2
+    2300010: Ring_3
+    3300000: //RootNode
+    3300002: Planet_Rings_LOD_0
+    3300004: Planet_Rings_LOD_1
+    3300006: Ring_1
+    3300008: Ring_2
+    3300010: Ring_3
+    4300000: Planet_Rings
+    4300002: Planet_Rings_LOD_0
+    4300004: Ring_3
+    4300006: Ring_2
+    4300008: Ring_1
+    4300010: Planet_Rings_LOD_1
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

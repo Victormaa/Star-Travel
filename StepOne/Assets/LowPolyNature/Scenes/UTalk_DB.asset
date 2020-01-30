@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6cfa284ee312e4bb72811df37c4740, type: 3}
+  m_Name: UTalk_DB
+  m_EditorClassIdentifier: 
+  Actors:
+  - Id: 1
+    Name: Player
+    Image: {fileID: 21300000, guid: 82fe8d8e02e1c874085493c35b4ec063, type: 3}
+    ActorType: 0
+  - Id: 2
+    Name: NPC
+    Image: {fileID: 21300000, guid: fb320a9b1edcdae4a91d815501173b79, type: 3}
+    ActorType: 1
+  Conversations:
+  - Name: RedGuyTalk
+    Items:
+    - Text: < Start >
+      ID: d5a09143-786d-49c6-a40d-0983836cdc83
+      ActorId: 0
+      Box:
+        serializedVersion: 2
+        x: 259
+        y: 22
+        width: 200
+        height: 50
+      mSelectedIndex: 0
+      Tag: 
+    - Text: Fine, but put that axe down!
+      ID: 153d3c8d-70a3-4a13-83b1-20702e46f06c
+      ActorId: 1
+      Box:
+        serializedVersion: 2
+        x: 82
+        y: 197
+        width: 200
+        height: 50
+      mSelectedIndex: 0
+      Tag: 
+    - Text: Hi, how are you
+      ID: a3010019-9e07-412e-9d56-46d78d3fef87
+      ActorId: 2
+      Box:
+        serializedVersion: 2
+        x: 259
+        y: 105
+        width: 200
+        height: 50
+      mSelectedIndex: 1
+      Tag: 
+    - Text: Fine
+      ID: a254c729-1baf-4c87-ae46-1f959038b359
+      ActorId: 1
+      Box:
+        serializedVersion: 2
+        x: 401
+        y: 202
+        width: 200
+        height: 50
+      mSelectedIndex: 0
+      Tag: 
+    - Text: Never!
+      ID: 8baa6fd4-eddd-469e-9f2d-b58859a11939
+      ActorId: 2
+      Box:
+        serializedVersion: 2
+        x: 81
+        y: 323
+        width: 200
+        height: 50
+      mSelectedIndex: 1
+      Tag: AxeAttack
+    - Text: That's good
+      ID: feabac44-f983-44ef-9e4b-8ee8bc897a16
+      ActorId: 2
+      Box:
+        serializedVersion: 2
+        x: 402
+        y: 318
+        width: 200
+        height: 50
+      mSelectedIndex: 1
+      Tag: 
+    Edges:
+    - FromId: d5a09143-786d-49c6-a40d-0983836cdc83
+      ToId: a3010019-9e07-412e-9d56-46d78d3fef87
+      Box:
+        serializedVersion: 2
+        x: 354
+        y: 95
+        width: 10
+        height: 10
+    - FromId: a3010019-9e07-412e-9d56-46d78d3fef87
+      ToId: 153d3c8d-70a3-4a13-83b1-20702e46f06c
+      Box:
+        serializedVersion: 2
+        x: 177
+        y: 187
+        width: 10
+        height: 10
+    - FromId: 153d3c8d-70a3-4a13-83b1-20702e46f06c
+      ToId: 8baa6fd4-eddd-469e-9f2d-b58859a11939
+      Box:
+        serializedVersion: 2
+        x: 176
+        y: 313
+        width: 10
+        height: 10
+    - FromId: a3010019-9e07-412e-9d56-46d78d3fef87
+      ToId: a254c729-1baf-4c87-ae46-1f959038b359
+      Box:
+        serializedVersion: 2
+        x: 496
+        y: 192
+        width: 10
+        height: 10
+    - FromId: a254c729-1baf-4c87-ae46-1f959038b359
+      ToId: feabac44-f983-44ef-9e4b-8ee8bc897a16
+      Box:
+        serializedVersion: 2
+        x: 497
+        y: 308
+        width: 10
+        height: 10
+  - Name: AnotherConversation
+    Items:
+    - Text: < Start >
+      ID: d5a09143-786d-49c6-a40d-0983836cdc83
+      ActorId: 0
+      Box:
+        serializedVersion: 2
+        x: 264
+        y: 29
+        width: 200
+        height: 50
+      mSelectedIndex: 0
+      Tag: 
+    - Text: Hey my friend
+      ID: b3cd88ff-4ae5-4337-8cf2-234c3df0e845
+      ActorId: 2
+      Box:
+        serializedVersion: 2
+        x: 265
+        y: 160
+        width: 200
+        height: 50
+      mSelectedIndex: 1
+      Tag: 
+    - Text: Hi, nice to meet you
+      ID: 8d4c34d1-5e08-44d7-ab58-d981ca248977
+      ActorId: 1
+      Box:
+        serializedVersion: 2
+        x: 265
+        y: 285
+        width: 200
+        height: 50
+      mSelectedIndex: 0
+      Tag: 
+    Edges:
+    - FromId: d5a09143-786d-49c6-a40d-0983836cdc83
+      ToId: b3cd88ff-4ae5-4337-8cf2-234c3df0e845
+      Box:
+        serializedVersion: 2
+        x: 360
+        y: 150
+        width: 10
+        height: 10
+    - FromId: b3cd88ff-4ae5-4337-8cf2-234c3df0e845
+      ToId: 8d4c34d1-5e08-44d7-ab58-d981ca248977
+      Box:
+        serializedVersion: 2
+        x: 360
+        y: 275
+        width: 10
+        height: 10
+  ContinueConversationTime: 4
