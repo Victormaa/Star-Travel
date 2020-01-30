@@ -8,7 +8,7 @@ The game is under a space setting. Without too much gameful elements design but 
  Avatar could walk on a sphere surface. 
 
 <p align="center">
-<img src = "/images/Walk2.gif" width = "300">
+<img src = "/images/Walk2.gif" width = "400">
 </p>
  
 this is a gif about the walking on a planet
