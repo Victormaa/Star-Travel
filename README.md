@@ -8,6 +8,9 @@ The game is under a space setting. Without too much gameful elements design but 
  Avatar could walk on a sphere surface. 
 
 ![Walk on a sphere world](/images/Walk.PNG)
+
+![Walk on a sphere world!!](/images/GifTry.gif)
+this is a gif about the walking on a planet
 ***
 - Sphere world AI Patrol
  AI on the planet could patrol automatically.
