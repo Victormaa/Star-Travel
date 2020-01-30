@@ -16,7 +16,7 @@ this is a gif about the walking on a planet
 
 ***
 
--Sphere world AI Patrol
+- Sphere world AI Patrol
 <p align="center">
 <img src = "/images/AI.gif" width = "400">
 </p>
@@ -25,12 +25,12 @@ this is a gif about the walking on a planet
  </center>
 
 ***
--Survival System
+- Survival System
  Basic survival system.
 
 ***
--Object Pool for Saving Memory
+- Object Pool for Saving Memory
  Object Pool manage animals, inventories and weapons.
 
 ***
--Model planets and make the sun special effect 
+- Model planets and make the sun special effect 
