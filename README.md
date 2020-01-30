@@ -17,12 +17,13 @@ The game is under a space setting. Without too much gameful elements design but 
 </p>
 
 ***
-- Survival System
- Basic survival system.
+#### Basic Survival System
+<p align="left">
+<img src = "/images/Survival.gif" width = "400">
+</p>
 
 ***
-- Object Pool for Saving Memory
- Object Pool manage animals, inventories and weapons.
-
-***
-- Model planets and make the sun special effect 
+#### Object Pool for Saving Memory
+<p align="left">
+<img src = "/images/ObjectPool.gif" width = "400">
+</p>
