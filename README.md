@@ -7,7 +7,7 @@ The game is under a space setting. Without too much gameful elements design but 
 - Sphere Planet Walking Simulator
  Avatar could walk on a sphere surface. 
 
-![Walk on a sphere world](/images/Walk.png)
+![Walk on a sphere world](/images/Walk.PNG)
 ***
 - Sphere world AI Patrol
  AI on the planet could patrol automatically.
