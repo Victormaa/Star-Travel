@@ -9,20 +9,16 @@ The game is under a space setting. Without too much gameful elements design but 
 
 <p align="center">
 <img src = "/images/Walk2.gif" width = "400">
-</p>
-<center>
 this is a gif about the walking on a planet
-</center>
+</p>
 
 ***
 
 - Sphere world AI Patrol
 <p align="center">
 <img src = "/images/AI.gif" width = "400">
-</p>
-<center>
  AI on the planet could patrol automatically.
- </center>
+</p>
 
 ***
 - Survival System
