@@ -10,38 +10,27 @@ The game is under a space setting. Without too much gameful elements design but 
 <p align="center">
 <img src = "/images/Walk2.gif" width = "400">
 </p>
- 
+<center>
 this is a gif about the walking on a planet
+</center>
 
 ***
-- Sphere world AI Patrol
+
+-Sphere world AI Patrol
+<p align="center">
+<img src = "/images/AI.gif" width = "400">
+</p>
+<center>
  AI on the planet could patrol automatically.
+ </center>
 
 ***
-- Survival System
+-Survival System
  Basic survival system.
 
 ***
-- Object Pool for Saving Memory
+-Object Pool for Saving Memory
  Object Pool manage animals, inventories and weapons.
 
 ***
-- Model planets and make the sun special effect 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-Model planets and make the sun special effect 
