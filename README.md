@@ -7,7 +7,9 @@ The game is under a space setting. Without too much gameful elements design but 
 - Sphere Planet Walking Simulator
  Avatar could walk on a sphere surface. 
 
-<div align=center>![Walk on a sphere world!!](/images/Walk2.gif)
+<center>
+![Walk on a sphere world!!](/images/Walk2.gif)
+</center>
 
 this is a gif about the walking on a planet
 
