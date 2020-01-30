@@ -9,7 +9,7 @@ The game is under a space setting. Without too much gameful elements design but 
 
 ![Walk on a sphere world](/images/Walk.PNG)
 
-![Walk on a sphere world!!](/images/Walk.gif )
+![Walk on a sphere world!!](/images/Walk.gif =500x526)
 
 this is a gif about the walking on a planet
 ***
