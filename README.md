@@ -28,7 +28,7 @@ The game is under a space setting. Without too much gameful elements design but 
 <img src = "/images/ObjectPool.gif" width = "400">
 </p>
 
-Basically, if you wanna run this game you have to buy an asset to complete the project.
+Basically, if you wanna run this game you have to get an asset to complete the project.
 [A* Pathfinding Project ](https://assetstore.unity.com/packages/tools/ai/a-pathfinding-project-pro-87744)
 
 😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎
